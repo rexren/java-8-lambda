@@ -12,8 +12,8 @@ import java.util.stream.Stream;
 public class ComposedMethod {
 
     public static void main(String[] args) {
-        Album album = new Album();
-        album.add(new Artist("rensu", "beijing"));
+        //Album album = new Album();
+        //album.add(new Artist("rensu", "beijing"));
     }
 
     public Set<String> findLongTracks(List<Album> albums) {

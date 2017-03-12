@@ -1,5 +1,7 @@
 package com.hikvision.rensu.lambda.chapter1;
 
+import java.time.Clock;
+
 /**
  * Created by rensu on 17/3/10.
  */
@@ -30,5 +32,8 @@ public class LambdaTest {
 
 
 
+        final Clock clock = Clock.systemUTC();
+        System.out.println( clock.instant() );
+        System.out.println( clock.millis() );
     }
 }

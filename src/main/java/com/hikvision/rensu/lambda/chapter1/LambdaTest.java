@@ -1,6 +1,8 @@
 package com.hikvision.rensu.lambda.chapter1;
 
 import java.time.Clock;
+import java.time.ZoneId;
+import java.time.temporal.Temporal;
 
 /**
  * Created by rensu on 17/3/10.
@@ -33,7 +35,7 @@ public class LambdaTest {
 
 
         final Clock clock = Clock.systemUTC();
-        System.out.println( clock.instant() );
+        System.out.println( clock.instant().atZone(ZoneId.systemDefault()));
         System.out.println( clock.millis() );
     }
 }

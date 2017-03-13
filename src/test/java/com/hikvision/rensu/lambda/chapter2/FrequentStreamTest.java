@@ -12,8 +12,12 @@ public class FrequentStreamTest {
 
     @Test
     public void addUpTest() {
-        FrequentStream f = new FrequentStream();
-        int result = f.addUp(Stream.of(1, 2, 3, 5));
+        int result = FrequentStream.addUp(Stream.of(1, 2, 3, 5));
         Assert.assertEquals(11, result);
+    }
+
+    @Test
+    public void nameAndNationalityTest() {
+
     }
 }

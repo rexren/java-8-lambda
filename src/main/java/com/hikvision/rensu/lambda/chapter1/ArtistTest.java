@@ -1,5 +1,7 @@
 package com.hikvision.rensu.lambda.chapter1;
 
+import com.com.hikvision.rensu.lambda.common.Artist;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

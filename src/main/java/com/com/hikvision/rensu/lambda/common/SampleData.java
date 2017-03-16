@@ -1,4 +1,8 @@
-package com.hikvision.rensu.lambda.chapter1;
+package com.com.hikvision.rensu.lambda.common;
+
+import com.com.hikvision.rensu.lambda.common.Album;
+import com.com.hikvision.rensu.lambda.common.Artist;
+import com.com.hikvision.rensu.lambda.common.Track;
 
 import java.util.Arrays;
 import java.util.List;

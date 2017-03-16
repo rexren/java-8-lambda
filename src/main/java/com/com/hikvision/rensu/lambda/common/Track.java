@@ -1,6 +1,4 @@
-package com.hikvision.rensu.lambda.chapter1;
-
-import java.util.List;
+package com.com.hikvision.rensu.lambda.common;
 
 /**
  * Created by rensu on 17/3/11.

@@ -37,4 +37,12 @@ public class Track {
     public Track copy() {
         return new Track(name, length);
     }
+
+    @Override
+    public String toString() {
+        return "Track{" +
+                "length=" + length +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

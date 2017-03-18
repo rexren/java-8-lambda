@@ -28,7 +28,8 @@ public class Album {
         return name;
     }
 
-    public Stream getTracks() {
+    //Note: 如果这里类型不指定为Track,那在使用getTracks的时候,编译器将无法识别stream类型,推导不出具体的类
+    public Stream<Track> getTracks() {
         return tracks.stream();
     }
 
@@ -46,7 +47,7 @@ public class Album {
 
     public Album copy() {
         List tracks = this.tracks.stream().map(track -> track.copy()).collect(Collectors.toList());
-        List musicians = this.musicians.stream().map(artist -> artist.copy()).collect(Collectors.toList());
+        List musicians = this.musicians.stream().map(Artist::copy).collect(Collectors.toList());
 
         return new Album(name, tracks, musicians);
     }

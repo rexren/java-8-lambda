@@ -102,4 +102,27 @@ public class Artist {
 
         return new Artist(name, members, nationality);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Artist artist = (Artist) o;
+
+        if (age != artist.age) return false;
+        if (name != null ? !name.equals(artist.name) : artist.name != null) return false;
+        if (members != null ? !members.equals(artist.members) : artist.members != null) return false;
+        return nationality != null ? nationality.equals(artist.nationality) : artist.nationality == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (members != null ? members.hashCode() : 0);
+        result = 31 * result + (nationality != null ? nationality.hashCode() : 0);
+        result = 31 * result + age;
+        return result;
+    }
 }

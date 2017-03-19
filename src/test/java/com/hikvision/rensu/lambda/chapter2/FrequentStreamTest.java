@@ -16,8 +16,4 @@ public class FrequentStreamTest {
         Assert.assertEquals(11, result);
     }
 
-    @Test
-    public void nameAndNationalityTest() {
-
-    }
 }

@@ -1,6 +1,6 @@
 package com.hikvision.rensu.lambda.chapter4;
 
-import com.com.hikvision.rensu.lambda.common.*;
+import com.hikvision.rensu.lambda.common.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -50,7 +50,7 @@ public class Example {
     }
 
     @Test
-    public void concrteBeatsDefault(){
+    public void concrteBeatsDefault() {
         Parent p = new OverrideParent();
         p.welcome();
         Assert.assertEquals("Class Parent: Hi!", p.getLastMessage());

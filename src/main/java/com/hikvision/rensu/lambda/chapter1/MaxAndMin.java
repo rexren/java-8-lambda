@@ -1,6 +1,6 @@
 package com.hikvision.rensu.lambda.chapter1;
 
-import com.com.hikvision.rensu.lambda.common.Track;
+import com.hikvision.rensu.lambda.common.Track;
 
 import java.util.Arrays;
 import java.util.Comparator;

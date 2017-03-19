@@ -1,4 +1,4 @@
-package com.hikvision.rensu.lambda.chapter3;
+package com.hikvision.rensu.lambda.chapter4;
 
 import java.util.IllegalFormatException;
 import java.util.NoSuchElementException;

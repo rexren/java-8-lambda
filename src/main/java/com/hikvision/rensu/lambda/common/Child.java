@@ -1,6 +1,4 @@
-package com.com.hikvision.rensu.lambda.common;
-
-import com.com.hikvision.rensu.lambda.common.Parent;
+package com.hikvision.rensu.lambda.common;
 
 /**
  * Created by rensu on 17/3/19.

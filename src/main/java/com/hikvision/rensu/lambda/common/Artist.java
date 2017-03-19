@@ -1,4 +1,4 @@
-package com.com.hikvision.rensu.lambda.common;
+package com.hikvision.rensu.lambda.common;
 
 import java.util.ArrayList;
 import java.util.Collections;

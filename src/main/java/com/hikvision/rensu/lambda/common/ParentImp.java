@@ -1,4 +1,4 @@
-package com.com.hikvision.rensu.lambda.common;
+package com.hikvision.rensu.lambda.common;
 
 /**
  * Created by rensu on 17/3/19.

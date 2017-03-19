@@ -1,7 +1,7 @@
 package com.hikvision.rensu.lambda.chapter2;
 
-import com.com.hikvision.rensu.lambda.common.Album;
-import com.com.hikvision.rensu.lambda.common.Artist;
+import com.hikvision.rensu.lambda.common.Album;
+import com.hikvision.rensu.lambda.common.Artist;
 import org.junit.Assert;
 import org.junit.Test;
 

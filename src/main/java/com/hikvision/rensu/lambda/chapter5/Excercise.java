@@ -1,11 +1,9 @@
 package com.hikvision.rensu.lambda.chapter5;
 
+import com.hikvision.rensu.lambda.common.Album;
 import com.hikvision.rensu.lambda.common.Artist;
 
-import java.util.Comparator;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -37,4 +35,7 @@ public class Excercise {
         return artists.collect(Collectors.maxBy(Comparator.comparing(getCount)));
     }
 
+//    public static Map<Artist, List<String>> nameOfAlbumsDumb(Stream<Album> albums){
+//        return albums.collect(Collectors.groupingBy(Album::getMusicians, Collectors.mapping(Album::getName, Collectors.toList())));
+//    }
 }

@@ -24,6 +24,10 @@ public class Album {
         this.musicians = new ArrayList<>(musicians);
     }
 
+    /**
+     * get Album name
+     * @return
+     */
     public String getName() {
         return name;
     }

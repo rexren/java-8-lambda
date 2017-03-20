@@ -85,7 +85,7 @@ public class Artist {
         return location.equals(nationality);
     }
 
-    private Stream<Artist> getMembers() {
+    public Stream<Artist> getMembers() {
         return members.stream();
     }
 
